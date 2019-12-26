@@ -4,7 +4,7 @@ ALTER DATABASE petclinic
   DEFAULT CHARACTER SET utf8
   DEFAULT COLLATE utf8_general_ci;
 
-GRANT ALL PRIVILEGES ON petclinic.* TO pc@docker_tomcat IDENTIFIED BY 'pc';
+GRANT ALL PRIVILEGES ON petclinic.* TO 'root'@'localhost' IDENTIFIED BY 'pc';
 
 USE petclinic;
 
